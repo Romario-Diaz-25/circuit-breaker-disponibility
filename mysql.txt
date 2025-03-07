@@ -1,0 +1,7 @@
+docker run --name db.mysql \       
+  -e MYSQL_ROOT_PASSWORD=12345678 \      
+  -e MYSQL_DATABASE=DiplomadoDB \
+  -e MYSQL_USER=roma \     
+  -e MYSQL_PASSWORD=12345678 \  
+  -p 3306:3306 \
+  -d mysql:latest
